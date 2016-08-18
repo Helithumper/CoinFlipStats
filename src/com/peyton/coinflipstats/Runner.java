@@ -26,7 +26,7 @@ public class Runner {
 		for(int i = numCoins; i > 0; i--){
 			Coin coin = new Coin(); //Make a coin
 			String result = coin.flip(); //Flip it and save the result to the result varaible
-			System.out.println(result + i); //Print the Result
+			System.out.println(result + "\t|\tCoins Left: " + i); //Print the Result
 			
 			if(result.equals("Heads")){
 				numHeads++;
